@@ -19,6 +19,9 @@ console.log(sumZero([1, 2, 3, -2]))
 //I believe the second iteration would run faster due to it stoping as soon as it hits and 0 sum
 //I think that the larger the array the longer the run time is, especially if there is no 0 sums in it
 
+//runtime complexity: O(n^2)
+//space complexity: O(n)
+
 //To determine the exact run time of each here is the code.
 
 const perf = require('execution-time')()

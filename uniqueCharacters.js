@@ -5,11 +5,11 @@ const uniqueCharacters = (str) =>{
     for(let i = 0; i < str.length; i++){
         for(let j = 0; j < str.length; j++){
             if(str[i] === str[j]){
-                return true
+                return false
             }
         }
     }
-    return false
+    return true
 }
 console.log(uniqueCharacters("Monday"))
 
@@ -19,6 +19,10 @@ console.log(uniqueCharacters("Moonday"))
 //I feel as though this function runs faster that 1ms for the size of the string inputed.
 //I believe the second iteration would run faster due to it stoping as soon as it hits a duplicate character
 //I think that the larger the string the longer the run time is, especially if there is only unique characters
+
+//runtime complexity: O(n^2)
+//space complexity: O(n)
+
 
 //To determine the exact run time of each here is the code.
 

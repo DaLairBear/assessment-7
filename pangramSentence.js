@@ -25,6 +25,8 @@ console.log(pangramSentence(pangram2))
 //I believe this function will have a max runtime for if it looped though the entire alphabet no matter the string
 //That being said, if a string is not a panagram it will always be a much shorter time than if it is.
 
+//runtime complexity: O(n)
+//space complexity: O(n)
 
 //Here is the code to determine the exact runtime.
 const perf = require('execution-time')()

@@ -17,6 +17,9 @@ console.log(longestWord(["hi", "hello"]))
 //I feel like this takes less than 1ms.
 //But the longer the Array of strings to check the longer it will take run as it loops through each string
 
+//runtime complexity: O(n)
+//space complexity: O(n^2)
+
 //Here is the code to determine the actual time output
 const perf = require('execution-time')()
 
